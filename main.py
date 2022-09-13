@@ -64,6 +64,7 @@ def Scan():
 Execute = EXECUTE(Num1,Num2)
 
 window = Tk()
+window.title("App")
 MENU = Menu(window)
 MENU2 = Menu(MENU,tearoff=0)
 MENU2.add_command(label="Enter File",command=FILE)
