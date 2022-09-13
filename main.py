@@ -41,7 +41,7 @@ def FILE():
 
 
 def Insert_OUTPUT(TEXT):
-    Txt.insert(END,"Scanning\n")
+    Txt.insert(END,"\nScanning\n")
     time.sleep(1)
     Txt.insert(END,"Scanning Text\n")
     Txt.insert(END,"Scanning File\n")
@@ -51,7 +51,7 @@ def Insert_OUTPUT(TEXT):
 def Scan():
     global Num1 , Num2
     Execute.Change_Pos(Num1,Num2)
-    Insert_OUTPUT(str(bool(Execute.calculation())))
+    Insert_OUTPUT(Execute.calculation())
 
 
 
